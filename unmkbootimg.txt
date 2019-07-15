@@ -1,0 +1,19 @@
+unmkbootimg version 1.2 - Mikael Q Kuisma <kuisma@ping.se>
+Kernel size 25524292
+Kernel address 0x80008000
+Ramdisk size 2192026
+Ramdisk address 0x81000000
+Secondary size 0
+Secondary address 0x80f00000
+Kernel tags address 0x80000100
+Flash page size 2048
+Board name is ""
+Command line "androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000 buildvariant=user"
+This image is built using standard mkbootimg
+Extracting kernel to file zImage ...
+Extracting root filesystem to file initramfs.cpio.gz ...
+All done.
+---------------
+To recompile this image, use:
+  mkbootimg --kernel zImage --ramdisk initramfs.cpio.gz --base 0x80000000 --cmdline 'androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000 buildvariant=user' -o new_boot.img
+---------------

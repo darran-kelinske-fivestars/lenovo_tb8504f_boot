@@ -1,0 +1,5 @@
+
+kernel written to /source/source/fivestars/lenovo_tb850f/boot.img-kernel.gz
+ramdisk written to /source/source/fivestars/lenovo_tb850f/boot.img-ramdisk.cpio.gz
+
+extracted ramdisk contents to directory /source/source/fivestars/lenovo_tb850f/boot.img-ramdisk/
